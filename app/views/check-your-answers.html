@@ -22,10 +22,10 @@
             Number of balls you can juggle
           </dt>
           <dd class="govuk-summary-list__value">
-            [answer]
+            {{data['juggling-balls'] }}
           </dd>
           <dd class="govuk-summary-list__actions">
-            <a href="#">
+            <a href="juggling-balls">
               Change
               <span class="govuk-visually-hidden"> number of balls you can juggle</span>
             </a>
@@ -36,31 +36,18 @@
             Your most impressive juggling trick
           </dt>
           <dd class="govuk-summary-list__value">
-            [answer]
+            {{data['juggling-trick'] }}
           </dd>
           <dd class="govuk-summary-list__actions">
-            <a href="#">
+            <a href="juggling-trick">
               Change
               <span class="govuk-visually-hidden"> your most impressive juggling trick</span>
             </a>
           </dd>
         </div>
 
-        {# // were going to remove this #}
-        <div class="govuk-summary-list__row">
-          <dt class="govuk-summary-list__key">
-            Contact details
-          </dt>
-          <dd class="govuk-summary-list__value">
-            <p>07700 900457</p>
-          </dd>
-          <dd class="govuk-summary-list__actions">
-            <a href="#">
-              Change
-              <span class="govuk-visually-hidden"> contact details</span>
-            </a>
-          </dd>
-        </div>
+        
+        
 
       </dl>
 
